@@ -1,0 +1,27 @@
+{
+  "name": "charts",
+  "version": "1.0.0",
+  "description": "Just testing HighCharts",
+  "main": "index.js",
+  "scripts": {
+    "start": "node parser.js",
+    "test": "env",
+    "browserify": "browserify main.js -o bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esjuanma/highcharts_tests.git"
+  },
+  "author": "Juan Elfers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/esjuanma/highcharts_tests/issues"
+  },
+  "homepage": "https://github.com/esjuanma/highcharts_tests#readme",
+  "dependencies": {
+    "browser-sync": "^2.26.0",
+    "browserify": "^16.2.3",
+    "highcharts": "^6.1.4",
+    "watchify": "^3.11.0"
+  }
+}
